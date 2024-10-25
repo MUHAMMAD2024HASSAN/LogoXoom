@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db;
+}
+
+/* Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    max-width: 90%;
+    height: 190px;
+    max-height: 190px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(121, 121, 121, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 30px;
+}
+
+/* Logo on the left */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Divider line */
+.container .line{
+    width: 3px;
+    height: 130px;
+    background-color: #87f1ec;
+}
+
+/* Contact info on the right */
+.container .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .contact  .name, 
+.container .contact  .phone,
+.container .contact  .email {
+  color: #2bf1e8;
+}
+.container .contact a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.container .contact a:hover {
+    text-decoration: underline;
+}
