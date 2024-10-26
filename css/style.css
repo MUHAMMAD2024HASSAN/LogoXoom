@@ -55,6 +55,11 @@ body{
 .container .contact  .email {  
   color: #5641cc;
 }
+
+.container .contact  .phoneLink{
+    color: black;
+}
+
 .container .contact  .emailLink{
     color: black;
 }
