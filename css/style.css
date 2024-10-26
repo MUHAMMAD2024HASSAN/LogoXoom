@@ -5,13 +5,6 @@
     font-family: "Poppins", sans-serif;
     font-weight: 300;
 }
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #3498db;
-}
 
 /* Container */
 .container {
@@ -24,8 +17,6 @@ body{
     max-height: 190px;
     background-color: white;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(121, 121, 121, 0.1);
-    border-radius: 8px;
     overflow: hidden;
     gap: 30px;
 }
@@ -52,8 +43,13 @@ body{
 
 .container .contact  .name, 
 .container .contact  .phone,
-.container .contact  .email {  
-  color: #5641cc;
+.container .contact  .email,
+.container .contact  .website {
+    color: #5641cc;
+}  
+ 
+.container .contact .name{
+    font-size: 400;
 }
 
 .container .contact  .phoneLink{
