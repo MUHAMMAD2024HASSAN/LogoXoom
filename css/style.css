@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 table {
@@ -15,7 +15,7 @@ table {
 
 h2 {
     color: skyblue;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 p {
@@ -23,10 +23,14 @@ p {
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.icon{
+    color: skyblue;
 }
