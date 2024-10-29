@@ -41,6 +41,12 @@ a:hover {
     display: block;
 }
 
+@media (max-width: 600px) {
+    .icon {
+        gap: 5px;
+    }
+}
+
 
 
 
