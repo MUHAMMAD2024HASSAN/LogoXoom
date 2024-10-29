@@ -16,7 +16,7 @@ table {
 h2 {
     color: skyblue;
     font-size: medium;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 p {
@@ -32,6 +32,14 @@ a:hover {
     text-decoration: underline;
 }
 
+.icon {
+    display: flex;
+    gap: 12px;
+}
+
+.icon img{
+    display: block;
+}
 
 
 
