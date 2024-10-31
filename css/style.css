@@ -20,26 +20,11 @@ table {
     font-size: 16px;
 }
 
-a {
+.email-signature a{
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
-a:hover {
+.email-signature a:hover {
     text-decoration: underline;
 }
-
-.icon{
-    display: flex;
-    gap: 10px;
-}
-
-.icon img{
-    display: block;
-}
-
-@media (max-width: 600px) {
-    .icon {
-        gap: 5px;
-    }
-} 
