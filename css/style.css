@@ -6,21 +6,18 @@
     font-weight: 200;
     font-size: small;
 }
-
+ 
 table {
     margin: 0;
     padding: 0;
 }
 
 
-h2 {
-    color: skyblue;
-    font-size: medium;
-    font-weight: 400;
-}
 
-p {
-    color: black;
+.email-signature .name {
+    color: skyblue;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 a {
@@ -32,7 +29,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.icon {
+.icon{
     display: flex;
     gap: 10px;
 }
@@ -45,11 +42,4 @@ a:hover {
     .icon {
         gap: 5px;
     }
-}
-
-
-
-
-
-
-
+} 

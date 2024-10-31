@@ -4,40 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>Email Signature</title>
+    <!-- <style>
+        / Basic styling for the table layout /
+        .email-signature {
+            color: black;
+        }
+
+        .social-icons img {
+            gap: ;
+        }
+    </style> -->
 </head>
 <body>
-    <table style="display: inline-table;">
+    <table class="email-signature" cellpadding="0" cellspacing="0">
         <tr>
-            <td style="vertical-align: middle;">
-                <img src="./image/LogoXoom__logo_-removebg-preview.png" height="130px" width="130px" alt="LogoXoom">
+            <!-- Logo Section -->
+            <td style="padding-right: 10px;">
+                <img src="./image/LogoXoom__logo_-removebg-preview.png" alt="Logo" width="120" height="120">
             </td>
 
+            <!-- Information Section -->
             <td>
-                <h2 >James Davis</h2>
-                <p>Senior Sales Executive</p>
-                <p>Phone: <a href="tel:+12342797626">  +1 (234) 279 7626</a></p>
-                <p>Email: <a href="mailto:sales@logoxoom.com">  sales@logoxoom.com</a></p>
-                <p>Website: <a href="https://www.logoxoom.com" target="_blank">  www.LogoXoom.com</a></p>
+                <table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td colspan="2">
+                            <span class="name">James Davis</span> <br> Senior Sales Executive
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Phone: <a href="tel:+12342797626">+1 (234) 279 7626</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">email: <a href="mailto:sales@logoxoom.com">sales@logoxoom.com</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">website: <a href="https://www.logoxoom.com" target="_blank">www.logoxoom.com</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="padding-top: 5px;">
+                            <!-- Social Icons -->
+                            <a href="https://www.facebook.com" target="_blank">
+                                <img src="./image/facebook.png" alt="Facebook">
+                            </a>
 
-                <div class="icon">
-                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Flogoxoomofficial%2F" 
-                target="_blank" >
-                <img src="./image/facebook.png" alt="facebook">
-                </a>
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="./image/instagram.png" alt="Instagram">
+                            </a>
 
-                <a href="https://www.instagram.com/logoxoom/" target="_blank">
-                <img src="./image/instagram.png" alt="instagram">
-                </a>
-                <a href="https://www.linkedin.com/company/logoxoom" target="_blank">
-                <img src="./image/linkedin.png" alt="linkedin">
-                </a>
-            </div>
-                
+                            <a href="https://www.linkedin.com" target="_blank">
+                                <img src="./image/linkedin.png" alt="LinkedIn"> 
+                            </a>
+
+                        </td>
+                    </tr>
+                </table>
             </td>
-
         </tr>
     </table>
-    
 </body>
 </html>
