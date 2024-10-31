@@ -16,13 +16,17 @@ table {
 
 .email-signature .name {
     color: skyblue;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
 }
 
 .email-signature a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+
+.email-signature td p{
+    font-weight: 500;
 }
 
 .email-signature a:hover {
